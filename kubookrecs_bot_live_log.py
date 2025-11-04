@@ -14,7 +14,7 @@ KUBookRecs: Auto-Reply Bot (GO-LIVE V3)
 Usage (example):
     export REDDIT_USERNAME="Arijenn2891"
     export REDDIT_PASSWORD="your-app-password-or-pass:code"
-    python kubookrecs_bot_live.py
+    python kubookrecs_bot_live_log.py
 """
 
 import os, re, time, traceback
@@ -24,7 +24,7 @@ import praw
 from praw.exceptions import APIException, RedditAPIException
 
 # -------------------- CONFIG --------------------
-ALLOWED_SUBS = ["suggestmeabook", "books"]
+ALLOWED_SUBS = ["kubookrecs", "books"]
 LIMIT_PER_SUB = 25
 MAX_REPLIES_PER_RUN = 3
 COOLDOWN_SECONDS = 120
