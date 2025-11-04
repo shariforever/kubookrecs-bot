@@ -44,3 +44,4 @@ jobs:
               print("❌ Auth failed:", repr(e))
               sys.exit(1)
           PY
+          
